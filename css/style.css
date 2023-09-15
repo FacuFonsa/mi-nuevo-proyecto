@@ -6,7 +6,7 @@
 
 .container-grid{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     grid-template-columns: auto;
     grid-template-rows: auto 1fr auto;
     grid-template-areas: 
@@ -18,38 +18,47 @@
 
 
 header{
+    display: flex;
     grid-area: header;
     background-image: url("../assets/image/barra\ nav.png");
     background-size: cover;
-    padding: 1.25rem 1.875rem;
-    
-}
-
-
-nav{
-    display: flex;
+    padding: 0px 1.875rem;
     justify-content: space-between;
     align-items: center;
-
 }
-.navBar{
+
+
+nav ul{
     display: flex;
-    gap: 1.25rem;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1.875rem;
     list-style: none;
-
+    gap: .9375rem;
 }
+
+nav ul li{
+    display: flex;
+    display: inline;
     
+    
+}
+
+
 nav ul li a{
     color: antiquewhite;
     text-decoration: none;
     font-size: 1.875rem;
+    align-items: right;
     
-
-
 }
+
+
+
 main{
     width: 100%;
-    height: 100vh;
+    height: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     background-repeat: no-repeat;
     grid-area: main;
     background-position: center;
@@ -65,7 +74,7 @@ main h1{
 
 .container-cards{
     width: 100%;
-    height: 800px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -116,10 +125,26 @@ main h1{
     background-color: rgba(32, 178, 171, 0.589);
 }
 
+.phil{
+    background-color: rgba(173, 216, 230, 0.514);
+    border-radius: 2.1875rem;
+    
+}
+
+.phil div h2{
+    margin: 20px;
+}
+
+.phil div h3{
+    margin: 20px;
+}
+
+
 
 
 footer{
     grid-area: footer;
+    color: antiquewhite;
     background-image: url("../assets/image/barra\ nav.png");
 }
 
