@@ -20,13 +20,16 @@
 header{
     grid-area: header;
     background-image: url("../assets/image/barra\ nav.png");
+    background-size: cover;
     padding: 1.25rem 1.875rem;
+    
 }
 
 
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .navBar{
@@ -54,14 +57,24 @@ main{
     
 }
 
+main h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: center;
+    font-size: 6.25rem;
+}
+
 .container-cards{
     width: 100%;
-    height: 500px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: rgba(211, 211, 211, 0.377);
     align-items: center;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    gap: 5%;
+    
 }
 
 .cards{
@@ -88,19 +101,19 @@ main{
 }
 
 .card-3{
-    
+    background-color: rgba(135, 206, 250, 0.589);
 }
 
 .card-4{
-
+    background-color: rgba(135, 206, 250, 0.589);
 }
 
 .card-5{
-
+    background-color: rgba(32, 178, 171, 0.589);
 }
 
 .card-6{
-
+    background-color: rgba(32, 178, 171, 0.589);
 }
 
 
