@@ -146,6 +146,7 @@ footer{
     grid-area: footer;
     color: antiquewhite;
     background-image: url("../assets/image/barra\ nav.png");
+    background-size: cover;
 }
 
 
