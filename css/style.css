@@ -66,6 +66,11 @@ main{
     
 }
 
+.maindw{
+    width: 100%;
+    height: 100vh;
+}
+
 main h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     text-align: center;
@@ -139,6 +144,14 @@ main h1{
     margin: 20px;
 }
 
+.carousel-inner div h5{
+    color:rgb(0, 0, 12);
+    background-color: rgba(185, 174, 160, 0.692);
+}
+
+.carousel-inner div p{
+    background-color: rgba(185, 174, 160, 0.692);
+}
 
 
 
