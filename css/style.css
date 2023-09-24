@@ -113,7 +113,7 @@ main h1{
 }
 
 .parrafoNosotros{
-    font-size: 50px;
+    font-size: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     background-color: rgba(185, 174, 160, 0.692);
 }
@@ -205,12 +205,40 @@ footer{
     background-size: cover;
 }
 
+@media(max-width: 1024px){
+    .grid-container-nosotros{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "item1" "item2"
+        "item3" "item4"
+        "item5" "item6"
+    }
+}
+
 @media(max-width: 768px){
     main h1{
         font-size: 60px;
-        
+    
+    }
+    
+}
+
+@media(max-width: 648px){
+    .grid-container-nosotros{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        "item1" 
+        "item2" 
+        "item3"
+        "item4" 
+        "item5" 
+        "item6"
+        }
+    .parrafoNosotros{
+        font-size: 20px;
     }
 }
+
 
 @media(max-width: 480px){
     main h1{
