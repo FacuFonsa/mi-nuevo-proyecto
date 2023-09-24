@@ -126,29 +126,6 @@ main h1{
     gap: 5%;
     
 }
-/*Pseudoclases*/
-
-input:focus{
-    background-color: black;
-}
-
-.pseudo p{
-    text-indent: 30px;
-}
-.pseudo p spam{
-    font-size: 30px;
-    color: red;
-}
-
-.navBar li a:hover{
-    color: black;
-    text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.432);
-}
-
-.navBar li a:active{
-    color: rgb(194, 129, 8);
-}
-
 
 
 .cards{
@@ -224,6 +201,37 @@ footer{
     background-image: url("../assets/image/barra\ nav.png");
     background-size: cover;
 }
+
+
+/*Pseudoclases y pseudoelementos*/
+
+input:focus{
+    background-color: black;
+}
+
+.pseudo p{
+    text-indent: 30px;
+}
+.pseudo p::selection{
+    background-color: rgba(185, 174, 160, 0.692);
+    color: rgb(6, 106, 119);
+}
+.pseudo p spam{
+    font-size: 30px;
+    color: red;
+}
+
+.navBar li a:hover{
+    color: black;
+    text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.432);
+}
+
+.navBar li a:active{
+    color: rgb(194, 129, 8);
+}
+
+/*Mediaquieries*/
+
 
 @media(max-width: 1024px){
     .grid-container-nosotros{
