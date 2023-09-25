@@ -273,9 +273,13 @@ input:focus{
         font-size: 40px;
     }
 }
-@media(max-width: 425px){
+@media(max-width: 426px){
     nav ul li a{
         font-size: 20px;
+    }
+    main h1{
+        font-size: 25px;
+        background-color: rgba(0, 0, 0, 0.767);
     }
 }
 
