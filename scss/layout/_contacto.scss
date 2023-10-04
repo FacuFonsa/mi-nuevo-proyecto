@@ -1,0 +1,17 @@
+.login {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: $background;
+        legend{
+            @include legend-estilos;
+    }
+        label{
+            @include label-estilos;
+        }
+        input{
+            &:focus{
+                background-color: black;
+            }
+        }
+}

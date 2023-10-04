@@ -1,0 +1,27 @@
+main{
+    width: 100%;
+    height: auto;
+    font-family:$font-family;
+    background-repeat: no-repeat;
+    grid-area: main;
+    background-position: center;
+    background-image: url("../assets/image/fondo.png");
+        h1{
+            @include h1-estilos;
+        }
+}
+
+
+
+.phil{
+    background-color: rgba(173, 216, 230, 0.514);
+    border-radius: 2.1875rem;
+    div{
+        h2{
+            margin: 20px;
+        }
+        h3{
+            margin: 20px;
+        }
+    }
+}

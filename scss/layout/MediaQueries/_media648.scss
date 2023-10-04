@@ -1,0 +1,15 @@
+@media(max-width: 648px){
+    .grid-container-nosotros{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        "item1" 
+        "item2" 
+        "item3"
+        "item4" 
+        "item5" 
+        "item6"
+        }
+    .parrafoNosotros{
+        font-size: 20px;
+    }
+}
