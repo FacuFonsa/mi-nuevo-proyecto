@@ -6,14 +6,19 @@ header{
                 @include flexul;
                 li{
                     @include flexli;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
                     a{
                         @include nav-estilos;
+                        transition: color 1s;
                         &:hover{
                             color: black;
                             text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.432);
                         }
                         &:active{
                             color: rgb(194, 129, 8);
+                        
                         }
                     }
                     }
