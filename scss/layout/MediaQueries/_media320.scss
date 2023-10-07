@@ -1,15 +1,33 @@
 @media(max-width: 320px){
-    main h1{
-        font-size: 25px;
-        background-color: rgba(0, 0, 0, 0.767);
+    main{
+        h1{
+            font-size: 25px;
+            background-color: rgba(0, 0, 0, 0.767);
+        }
     }
-    nav ul li a{
-        font-size: 10px;
         
-        
-    }
+
+
     nav{
         padding-top: 1.25rem;
-        
+        ul{
+            li{
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+    } 
+
+    .login{
+        font-size: 15px;
+            legend{
+                background-color: bisque;
+            }
     }
+
+    iframe{
+        width: 100%;
+    }
+
 }

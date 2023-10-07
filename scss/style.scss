@@ -1,8 +1,7 @@
-$background: rgba(185, 174, 160, 0.692);
-$font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-
+@import "./utilities/variables";
 @import "./utilities/mixins";
 
+@import "./base/reset";
 
 @import "./layout/body";
 
