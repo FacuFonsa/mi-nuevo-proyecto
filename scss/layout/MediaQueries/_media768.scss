@@ -9,5 +9,23 @@
         width: 70%;
         height: 250px;
     }
+
+    .col-2{
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .col-3{
+        width: 50%;
+        font-size: 20px;
+    }
+
     
+    .carousel-inner{
+        min-width: 700px;
+    
+    }
+    .carousel-control-next{
+        left: 650px;
+    }
 }
