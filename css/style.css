@@ -190,6 +190,20 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6";
   }
+  .col-2 {
+    width: 90%;
+    font-size: 25px;
+  }
+  .col-3 {
+    width: 100%;
+    font-size: 25px;
+  }
+  .carousel-inner {
+    min-width: 1000px;
+  }
+  .carousel-control-next {
+    left: 930px;
+  }
 }
 @media (max-width: 768px) {
   main h1 {
